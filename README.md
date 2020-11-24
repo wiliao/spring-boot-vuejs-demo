@@ -1,1 +1,1 @@
-# spring-boot-vuejs
+# spring-boot-vuejs-demo
