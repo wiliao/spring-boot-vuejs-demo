@@ -15,6 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>11</java.version>
     	<frontend-maven-plugin.version>1.10.3</frontend-maven-plugin.version>
+    	<frontend-maven-plugin.nodeVersion>v14.9.0</frontend-maven-plugin.nodeVersion>
 	</properties>
 
 	<build>
@@ -31,7 +32,7 @@
 							<goal>install-node-and-npm</goal>
 						</goals>
 						<configuration>
-							<nodeVersion>v15.2.1</nodeVersion>
+							<nodeVersion>${frontend-maven-plugin.nodeVersion}</nodeVersion>
 						</configuration>
 					</execution>
 					<!-- Install all project dependencies -->
